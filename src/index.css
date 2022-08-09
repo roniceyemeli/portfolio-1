@@ -7,5 +7,18 @@
 
 :root{
   background-color: #FCE2DB;
+  background-image: url(./assets/image/box1.svg), url(./assets/image/box2.svg);
+  background-repeat: no-repeat;
+  background-position: top -70px left -15px,bottom -70px right -15px;
+  height: 100vh;
+  overflow: hidden;
   
+
+}
+
+@media (max-width: 596px){
+  :root{
+     background-position: top -178px left -178px,bottom -342px right -195px; 
+  }
+ 
 }

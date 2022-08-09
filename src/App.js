@@ -8,7 +8,7 @@ import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="boxe">
+    
       <Router>
         <Navbar />
         <Routes>
@@ -18,7 +18,6 @@ function App() {
           <Route exact path="/Contact" element={<Contact />}></Route>
         </Routes>
       </Router>
-      </div>
   );
 }
 
