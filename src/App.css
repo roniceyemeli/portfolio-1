@@ -1,25 +1,15 @@
 .boxe{
-    background-image: url(./assets/image/box1.svg);
+    background-image: url(./assets/image/box1.svg), url(./assets/image/box2.svg);
     background-repeat: no-repeat;
-    background-position: top -70px left -15px;
+    background-position: top -70px left -15px,bottom -70px right -15px;
     height: 100vh;
-    width: 100vw;
-    background-position: fixed;
+    overflow: hidden;
 }
-.boxe::after{
-    content: url(./assets/image/box2.svg);
-    position: fixed;
-    bottom: -245px;
-    right: -100px;
-    margin: 0;
-}
+
 
 @media (max-width: 596px){
    .boxe{
-      background-position: top -178px left -178px; 
+      background-position: top -178px left -178px,bottom -178px right -178px; 
    }
-   .boxe::after{
-    bottom: -360px;
-    right: -200px;
-   }
+  
 }
