@@ -1,0 +1,13 @@
+.acceuil{
+    margin-top: 6rem;
+    
+   margin-left: 65%;
+   
+   height: auto;
+    
+}
+
+.acceuil img{
+    position: absolute;
+    display: flex;
+}
