@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import menu from "./icons8-menu-30.png";
+import menu from "../../assets/image/icons8-menu.svg";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
