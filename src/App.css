@@ -2,7 +2,9 @@
     background-image: url(./assets/image/box1.svg);
     background-repeat: no-repeat;
     background-position: top -70px left -15px;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    background-position: fixed;
 }
 .boxe::after{
     content: url(./assets/image/box2.svg);
