@@ -9,7 +9,7 @@ function Navbar() {
   
 
   return (
-    <>
+
     
       <div className = "nav">
         <div className="left">
@@ -47,7 +47,7 @@ function Navbar() {
           </div>
       </div>
       
-    </>
+
   );
 }
 
