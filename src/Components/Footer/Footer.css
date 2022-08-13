@@ -20,6 +20,13 @@ footer{
 
 .container ul{
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 
+.icon{
+    /* width: 65px; */
+    /* height: 65px; */
+    /* cursor: pointer; */
+    /* border-radius: 50px; */
+    transition: all .4s;
+}

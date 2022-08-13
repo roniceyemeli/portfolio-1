@@ -7,10 +7,10 @@ function Footer() {
     <footer className="footer">
       <div className="container"> 
             <ul>
-              <li>Acceuil</li>
-              <li>Projet</li>
-              <li>Service</li>
-              <li>Contact</li>
+              <li className="icon"><i className="fab fa-facebook"></i></li>
+              <li className="icon"><i className="fab fa-instagram"></i></li>
+              <li className="icon"><i className="fab fa-whatsapp"></i></li>
+              <li className="icon"><i className="fab fa-twitter"></i></li>
             </ul>
       </div>
     </footer>
