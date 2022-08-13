@@ -5,7 +5,7 @@
     font-family: 'Quicksand', sans-serif;
     outline: none;
     border: none;
-    transition: all .2s linear;
+    /* transition: all .2s linear; */
 }
 
 .nav{
