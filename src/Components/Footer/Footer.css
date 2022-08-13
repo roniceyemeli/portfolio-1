@@ -1,12 +1,25 @@
 footer{
-    background:#FF8FB1;
-    position:fixed;
+    /* background:#FF8FB1; */
+    position:absolute;
     bottom:0;
     width:100%;
-    padding-top:100px;
-    height:50px;
+
 }
 
-.footer-col ul{
-   text-align: center;
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    justify-content: center;
 }
+
+.container ul li{
+    
+    margin: 0px;
+}
+
+.container ul{
+    display: flex;
+    gap: 1rem;
+}
+
