@@ -1,0 +1,12 @@
+footer{
+    background:#FF8FB1;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding-top:100px;
+    height:50px;
+}
+
+.footer-col ul{
+   text-align: center;
+}

@@ -5,10 +5,11 @@ import Acceuil from "./Components/Acceuil/Acceuil";
 import Service from "./Components/Service/Service";
 import Contact from "./Components/Contact/Contact";
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    
+    <>
       <Router>
         <Navbar />
         <Routes>
@@ -18,6 +19,8 @@ function App() {
           <Route exact path="/Contact" element={<Contact />}></Route>
         </Routes>
       </Router>
+      <Footer />
+    </>
   );
 }
 
