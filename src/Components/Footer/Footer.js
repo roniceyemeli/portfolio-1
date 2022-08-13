@@ -7,10 +7,10 @@ function Footer() {
     <footer className="footer">
       <div className="container"> 
             <ul>
-              <li className="icon"><i className="fab fa-facebook"></i></li>
-              <li className="icon"><i className="fab fa-instagram"></i></li>
-              <li className="icon"><i className="fab fa-whatsapp"></i></li>
-              <li className="icon"><i className="fab fa-twitter"></i></li>
+              <li><a href="https://www.facebook.com/"><i className="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
+              <li><a href="https://web.whatsapp.com/"><i className="fab fa-whatsapp"></i></a></li>
+              <li><a href="https://twitter.com/home"><i className="fab fa-twitter"></i></a></li>
             </ul>
       </div>
     </footer>
