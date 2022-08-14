@@ -5,7 +5,7 @@
 
 .form {
   flex-direction: column;
-  width: 30%;
+  width: 33%;
   display: flex;
 }
 
@@ -46,4 +46,16 @@ button {
 .btn {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 634px){
+  .btn button{
+        width: 66.2px;
+    }
+    .form h2{
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 20%;
+    }
 }

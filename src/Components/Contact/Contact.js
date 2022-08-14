@@ -21,7 +21,7 @@ function Contact() {
           />
           <div className="btn">
             <button type="submit" value="Submit">
-              Submit
+              Envoyer
             </button>
           </div>
         </form>
