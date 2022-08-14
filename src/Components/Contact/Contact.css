@@ -1,3 +1,45 @@
-.contact{
+.label{
     text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+   
+}
+
+input{
+  background-color: #FCE2DB;
+  border-radius: 10px;
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid black;
+}
+
+textarea{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 2rem;
+    background-color: #FCE2DB;
+    margin-top: 1.5rem;
+}
+
+.form button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    width: 25%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #FF8FB1;
 }
