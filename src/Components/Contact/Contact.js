@@ -4,14 +4,28 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-    <div className="label"><h2>Contact</h2></div>
-    <div className="contact">
-      <form className="form">
-        <input type="text" id="fname" name="fname" />
-        <textarea type="text" id="lname" name="lname" />
-        <button type="submit" value="Submit">Submit</button>
-      </form>
-    </div>
+      <div className="contact">
+        <form className="form">
+          <h2>Contact</h2>
+          <input
+            placeholder="Entrer votre adresse email:"
+            type="text"
+            id="mail"
+            name="mail"
+          />
+          <textarea
+            placeholder="Message:"
+            type="text"
+            id="message"
+            name="message"
+          />
+          <div className="btn">
+            <button type="submit" value="Submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
     </>
   );
 }
