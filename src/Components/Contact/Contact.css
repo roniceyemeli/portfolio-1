@@ -58,4 +58,7 @@ button {
     .contact{
         margin-top: 20%;
     }
+    .form{
+      width: 50%;
+    }
 }
