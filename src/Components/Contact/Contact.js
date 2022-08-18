@@ -1,12 +1,13 @@
-import React, { useRef,useState } from "react";
-import swal from "sweetalert";
+import React, { useRef, useState } from "react";
+import swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
-  const [text , setText] = useState('')
-  const [message , setMessage] = useState('')
+  const [text, setText] = useState("");
+  const [message, setMessage] = useState("");
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -27,12 +28,6 @@ const Contact = () => {
       );
   };
 
-  function Supprimer()
-{
-    var formulaire = document.getElementsByClassName("form");
-    formulaire.removeChild(form.lastChild);
-}
-
   return (
     <>
       <div className="contact">
@@ -40,11 +35,14 @@ const Contact = () => {
           <h2>Contact</h2>
           <input
             placeholder="Entrer votre adresse email:"
-            type="text"
+            type="email"
             id="user_email"
             name="user_email"
             value={text}
-            onChange={(e)=>{setText(e.target.value)}}
+            onChange={(e) => {
+              setText(e.target.value);
+            }}
+            required
           />
           <textarea
             placeholder="Message:"
@@ -52,20 +50,17 @@ const Contact = () => {
             id="message"
             name="message"
             value={message}
-            onChange={(e)=>{setMessage(e.target.value)}}
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
+            required
           />
           <div className="btn">
             <button
               onClick={() => {
-                swal({
-                  text: "Message envoyer",
-                  icon: "success",
-                });
-               
-                
-              }}
-              onChange={() => {
-                Supprimer()
+                if (text !== "" && message !== "") {
+                  swal.fire("Message envoyer", "Restez en attente", "success");
+                }
               }}
               type="submit"
               value="Submit"
