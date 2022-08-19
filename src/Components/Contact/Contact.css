@@ -1,6 +1,7 @@
 .form h2 {
   text-align: center;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .form {
@@ -18,7 +19,7 @@
 }
 
 input {
-  background-color: #fce2db;
+  background-color: whitesmoke;
   border-radius: 10px;
   width: 100%;
   padding: 0.8rem;
@@ -28,7 +29,7 @@ input {
 textarea {
   border-radius: 10px;
   border: 2px solid black;
-  background-color: #fce2db;
+  background-color: whitesmoke;
   margin-top: 1.5rem;
   resize: none;
   height: 100px;
@@ -45,7 +46,7 @@ button {
   width: 30%;
   padding: 0.5rem;
   border-radius: 10px;
-  background-color: #ff8fb1;
+  background-color: whitesmoke;
 }
 
 .btn {
