@@ -1,6 +1,24 @@
 .acceuil {
+    color: white;
   margin-top: 3rem; 
    margin-left: 65%;
+}
+
+.moi{
+    display: flex-start;
+    color: white;
+    margin-left: 4rem;
+    width: 50%;
+    top: 0px;
+}
+
+.moi h1{
+    z-index: 1000;
+}
+
+
+.about h1{
+    margin-left: 10px;
 }
 
 .about img {

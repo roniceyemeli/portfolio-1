@@ -13,7 +13,7 @@ function Navbar() {
     
       <div className = "nav">
         <div className="left">
-          <h3>Vinyssus</h3>
+          <h3>.</h3>
         </div>
 
         <div className={!menuOpen? 'vertical' : 'column'}>

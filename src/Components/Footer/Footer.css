@@ -1,6 +1,6 @@
 footer {
   /* background:#FF8FB1; */
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
