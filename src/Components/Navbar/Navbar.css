@@ -35,6 +35,9 @@
     display: none;
 }
 
+.left p{
+    color: white;
+}
 
 /* right part of the nav bar */
 .vertical{

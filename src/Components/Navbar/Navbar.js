@@ -13,7 +13,7 @@ function Navbar() {
     
       <div className = "nav">
         <div className="left">
-          <h3>.</h3>
+          <p>Tel: +216 99-501-379</p>
         </div>
 
         <div className={!menuOpen? 'vertical' : 'column'}>

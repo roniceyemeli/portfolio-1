@@ -1,57 +1,190 @@
-.acceuil {
-    color: white;
-  margin-top: 3rem; 
-   margin-left: 65%;
+*{
+    box-sizing: border-box;
+}
+
+.principal{
+    display: flex;
 }
 
 .moi{
-    display: flex-start;
+    display: flex;
+    justify-content: center;
     color: white;
-    margin-left: 4rem;
     width: 50%;
-    top: 0px;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 12rem;
+    
 }
 
-.moi h1{
-    z-index: 1000;
+.titre{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.texte{
+    width: 100%;
+    text-align: center;
 }
 
 
-.about h1{
-    margin-left: 10px;
+.image {
+    color: white; 
+   display: flex;
+   justify-content: center;
+   width: 50%;
 }
 
-.about img {
-  width: 65%;
+.image img{
+    margin-top: 5rem;
+    height: 100%;
+}
+
+.boutton{
+    margin-top: 5rem;
+    display:flex ;
+    width: 100%;
+    justify-content: center;
+}
+
+.boutton a{
+    position: relative;
+    padding: 25px 30px;
+    margin: 40px 0; color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s; letter-spacing: 4px;
+    overflow: hidden; margin-right: 50px;
+}
+
+.boutton a:hover{
+    background: #03e9f4; color: #050801;
+}
+
+a span{
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animationUne 1s linear infinite;
+}
+
+@keyframes animationUne{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animationDeux 1s linear infinite;
+    animation-delay:0.25s ;
+}
+
+@keyframes animationDeux{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animationTrois 1s linear infinite;
+    animation-delay:0.50s ;
+}
+
+@keyframes animationTrois{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+a span:nth-child(4){
+    bottom: 100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animationQuatre 1s linear infinite;
+    animation-delay:0.75s ;
+}
+
+@keyframes animationQuatre{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+
+@media (max-width: 700px){
+    .principal{
+        display: flex;
+        flex-direction: column-reverse; 
+        justify-content: center;
+    }
+
+    .image {
+        color: white; 
+       display: flex;
+       justify-content: center;
+       width: 100%;
+    }
+    
+    .image img{
+       width: 100%;
+       margin-left: 3rem;
+       margin-right: 3rem;
+    }
+    
+    .moi{
+        display: flex;
+        justify-content: center;
+        color: white;
+        width: 100%;
+        
+    }
+    
+    .moi h2{
+        margin-top: 0.8rem;
+        margin-left: 15%;
+        color: red;
+    }
+    
 }
 
 @media (max-width: 420px){
-    .acceuil{
-        display: flex;
-        justify-content: center;
-        margin-left: 0%;
-        padding: 80px;
-        padding-top: 0px;
-        margin-top: 10px;
-    }
-    .about img{
+    .image img{
         width: 100%;
-        margin-left: 77px;
-    }
+       padding: 20px;
+       margin-top: 2px;
+     }
 }
-
-/* @media (max-width: 600px){
-    .acceuil{
-        display: flex;
-        justify-content: center;
-        margin-left: 0%;
-        padding: 80px;
-        padding-top: 0px;
-        margin-top: 10px;
-        
-    }
-    .about img{
-        width: 58%;
-        margin-left: 256px;
-    }
-} */
