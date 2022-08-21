@@ -5,7 +5,6 @@
     font-family: 'Quicksand', sans-serif;
     outline: none;
     border: none;
-    /* transition: all .2s linear; */
 }
 
 .nav{
@@ -22,15 +21,6 @@
     width: 100%;
 }
 
-/* left part */
-/* h3{
-    text-transform: capitalize;
-    color: white;
-    font-weight: bold;
-    font-size: 2rem;
-    padding-left: 1.5rem;
-} */
-
 .openMenu{
     display: none;
 }
@@ -39,7 +29,6 @@
     color: white;
 }
 
-/* right part of the nav bar */
 .vertical{
     display: flex;
     align-items: center;
