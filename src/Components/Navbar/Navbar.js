@@ -28,7 +28,7 @@ function Navbar() {
               <Link onClick={()=>{setMenuOpen(false)}} to='/Service'>services</Link>
             </li>
             <li>
-              <Link onClick={()=>{setMenuOpen(false)}} to='Contact'>contact</Link>
+              <Link onClick={()=>{setMenuOpen(false)}} to='/Contact'>contact</Link>
             </li>
           </ul>
         </div>
