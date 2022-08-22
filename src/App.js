@@ -13,6 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
+          <Route exact path="/portfolio" element={<Acceuil />}></Route>
           <Route exact path="/" element={<Acceuil />}></Route>
           <Route exact path="/Projet" element={<Projet />}></Route>
           <Route exact path="/Service" element={<Service />}></Route>
