@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 
 .principal{
     display: flex;
@@ -22,7 +20,6 @@
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
-
 }
 
 .texte{
@@ -157,7 +154,6 @@ a span:nth-child(4){
     }
 
     .image {
-        color: white; 
        display: flex;
        justify-content: center;
        width: 100%;
@@ -177,18 +173,45 @@ a span:nth-child(4){
         
     }
     
-    .moi h2{
-        margin-top: 0.8rem;
-        margin-left: 15%;
-        color: red;
-    }
-    
 }
 
 @media (max-width: 420px){
     .image img{
         width: 100%;
        padding: 20px;
-       margin-top: 2px;
+       margin-top: 0px;
+       padding-bottom: 0px;
      }
+
+     .moi{
+        display: flex;
+        justify-content: center;
+        color: white;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 1rem;
+    }
+    
+    .titre {
+        width: 100%;
+    }
+
+    .titre h1{
+      font-size: 100%;
+    }
+
+    .titre p{
+        font-size: 80%;
+       margin-left: 5%;
+       margin-left: 5%;
+    }
+
+    
+    .boutton{
+        margin-top: 0.5rem;
+        display:flex ;
+        width: 100%;
+        justify-content: center;
+    }
 }
