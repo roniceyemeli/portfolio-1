@@ -36,15 +36,15 @@
 
 
 .image {
-    color: white; 
+    width: 50%;
    display: flex;
    justify-content: center;
-   width: 50%;
 }
 
 .image img{
     width: 50%;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .boutton{
